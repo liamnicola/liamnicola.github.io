@@ -1,0 +1,11 @@
+.about {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.about img{
+    height: 100px;
+    width: 100px;
+}

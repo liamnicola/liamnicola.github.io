@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    font-size: 16pt;
+    background-color: aliceblue;
+}
+
+.welcome{
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 3%;
+    background-color: #333333;
+    
+}
+.welcome h1{
+    color: aliceblue;
+}
+
+h1, h2{
+    text-align: center;
+    color: rgb(59 130 246);
+
+}

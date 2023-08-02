@@ -1,0 +1,90 @@
+.tools {
+    margin: auto;
+    width: 60%;
+}
+.tools img{
+    width:  100px;
+    height: 100px;
+    margin: auto;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.skill-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+}
+
+.skill-item{
+    display: flex;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+    width: 160px;
+    margin: 5%;
+    border: solid;
+    padding: 10%;
+    background-color: rgb(0,0,255, .05);
+}
+.skill-item:hover{
+    background-color: white;
+    transition: all .4s ease;}
+
+.react{
+    border: solid;
+    border-color: aqua;
+}
+
+.express{
+    border: solid;
+    border-color: grey;
+}
+
+.js{
+    border: solid;
+    border-color: yellow;
+}
+.python{
+    border: solid;
+    border-left-color: rgb(59 130 246);
+    border-top-color: rgb(59 130 246);
+    border-bottom-color: yellow;
+    border-right-color: yellow;
+}
+.java{
+    border: solid;
+    border-color: orangered;
+    border-left-color: rgb(59 130 246);
+    border-right-color: rgb(59 130 246);
+}
+.html{
+    border: solid;
+    border-color: orangered;
+}
+.css{
+    border: solid;
+    border-color: rgb(59 130 246);
+}
+.mongo{
+    border: solid;
+    border-color: green;
+}
+.node{
+    border: solid;
+    border-color: greenyellow;
+}
+.sql{
+    border: solid;
+    border-color: rgb(59 130 246);
+}
+
+
