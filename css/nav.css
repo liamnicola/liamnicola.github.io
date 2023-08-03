@@ -1,20 +1,31 @@
 .nav{
-    background-color: #333333;
-    padding: 1%;
-    position: fixed;
+    background-color: rgba(40,40,40,0.95);
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 1;
     font-size: 12pt;
+    backdrop-filter: blur(3px);
+    height: 4vh;
+    display: flex;
+    align-items: center;
 }
 a{
     color: aliceblue;
-    padding-right: 3%;
+    padding: 3%;
 }
 a:link { 
     text-decoration: none;
     color: white;
  }
+
+a {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+a:hover {
+    transform: scale(1.10);
+}
+
 
 
 a:visited { text-decoration: none; }

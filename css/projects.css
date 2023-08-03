@@ -53,10 +53,11 @@
   height: 80%;
 }
 
-a {
+.project-img-a{
   transition: transform 0.5s;
+  
 }
-a:hover {
+.project-img-a:hover {
   transform: scale(0.95);
 }
 
