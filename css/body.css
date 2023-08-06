@@ -3,8 +3,10 @@ html { scroll-behavior: smooth; }
 body {
     font-family: 'Roboto';
     margin: 0;
-    font-size: 16pt;
-    background-color: #fdfdfd;
+    font-size: 20pt;
+    background-color: rgba(59, 131, 246, 0.767);
+    opacity: 99%;
+    color: white;
 }
 
 .welcome{
@@ -22,20 +24,18 @@ label{
     color: rgb(59 130 246);
 }
 .welcome h1{
-    color: aliceblue;
     margin: 0 auto;
-
+    color: azure;
 }
 
 .welcome h3{
-    color: aliceblue;
     margin: 0 auto;
+    color: azure;
 
 }
 
 h1, h2{
     text-align: center;
-    color: rgb(59 130 246);
 
 }
 
@@ -47,6 +47,7 @@ h1, h2{
 }
 
 .footer{
+    margin-top: 5%;
     background-color: rgba(40,40,40, 0.95);
     height: 100px;
     position: relative;
@@ -57,4 +58,25 @@ h1, h2{
 }
 .footerLinks{
     display: flex;
+    width: auto;
+    align-items: center;
 }
+
+.footp{
+    display: flex;
+    font-size: 8pt;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

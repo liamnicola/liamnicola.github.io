@@ -17,7 +17,7 @@
     <div class="welcome">
         <h1 id="a">Hello! I am <label>Liam Nicola</label></h1>
         <h3>Welcome to my website!</h3>
-        <a class="start" href="#nav">V</a>
+        <a class="start" href="#nav">&#x21E9</a>
     </div>
     <div id="content"></div>
     <div class="nav" id="nav">
@@ -104,7 +104,8 @@
                 <div class="project-info">
                     <h3>ScoreViewer - Review App</h3>
                     <p>Full stack application accompanied with a chrome extension - built with React, Node, Firebase, Chrome Extension,</p>
-                    <a href="https://dissertation-61223.web.app/">View Here</a>
+                    <a href="https://dissertation-61223.web.app/">View Here</a> <br/>
+                    <a href="https://github.com/liamnicola/ChromeExtension"> View Extension</a>
                 </div>
             </div>
 
@@ -124,7 +125,7 @@
             </div>
 
             <div class="project-right">
-                <a class="project-img-a">
+                <a class="project-img-a" href="https://github.com/liamnicola/COM519">
                     <div class="image-container">
                         <img class="project-img" src="./images/calorie.PNG">
                     </div>
@@ -132,25 +133,26 @@
                 <div class="project-info">
                     <h3>CalorieCheck</h3>
                     <p>Full Stack App made with Node.js, Express.js & MongoDB</p>
-                    <a>Link</a>
+                    <a href="https://github.com/liamnicola/COM519">View Code</a>
                 </div>
             </div>
         </div>
         <div class="contact" id="contact">
             <h2>Contact</h2>
             <p>If you have any questions or advice, please leave an email below!</p>
-            <form class="contact-form">
-                <input type="text" placeholder="Name/Company"></input>
-                <input type="text" placeholder="Email"></input>
-                <input type="text" placeholder="Message"></input>
-                <input type="submit" value="Submit">
-            </form>
+            <form class="contact-form" action="https://formsubmit.co/liamnicola151@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Portfolio Website">
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                <textarea class="textarea" type="text" name="text" placeholder="Enter Message Here" required></textarea>
+                <button class="submit" type="submit">Send</button>
+           </form>
         </div>
     <footer class="footer">
         <div class="footerLinks">
-            <a>Email</a>
-            <a>Github</a>
+            <a href="https://github.com/liamnicola">Github</a>
         </div>
+        <p class="footp">Liam Nicola 2023</p>
     </footer>
 </body>
 </html>
