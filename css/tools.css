@@ -1,7 +1,8 @@
 .tools {
-  width: 60%;
+  width: 80%;
   margin: auto;
   text-align: center;
+  padding-bottom: 5%;
 }
 .tools img {
   width: 60px;
@@ -22,6 +23,12 @@
   justify-content: center;
   margin: 2%;
   width: 20%;
+}
+
+.text-container{
+
+  width: 100%;
+  margin: 0%;
 }
 
 .skill-item {
@@ -105,40 +112,61 @@
 
 @media (max-width: 600px) {
   .skill-item {
-    display: flex;
-    position: relative;
-    color: black;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
     height: 60px;
     width: 60px;
-    margin: 5%;
-    border: solid 1px;
-    padding: 5%;
-    background-color: aliceblue;
-    transition: all 0.5s ease;
     font-size: 8pt;
   }
   .tools img {
     width: 22px;
     height: 22px;
-    margin: auto;
   }
 }
 
 @media (min-width: 601px) {
   .skill-item {
-    justify-content: space-between;
     height: 80px;
     width: 80px;
-    margin: 5%;
-    border: solid 1px;
     font-size: 10pt;
   }
   .tools img {
     width: 25px;
     height: 25px;
-    margin: auto;
   }
 }
+
+@media (min-width: 768px) {
+  .skill-item {
+    height: 110px;
+    width: 110px;
+    font-size: 10pt;
+  }
+  .tools img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .skill-item {
+    height: 80px;
+    width: 80px;
+    font-size: 14pt;
+  }
+  .tools img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 993px) {
+  .skill-item{
+    height: 150px;
+    width: 150px;
+    font-size: 16pt;
+  }
+  .tools img {
+    width: 60px;
+    height: 60px;
+  }
+}
+

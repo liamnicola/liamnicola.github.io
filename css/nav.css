@@ -43,3 +43,8 @@ a:active {
     justify-content: center;
   }
 }
+@media (max-width: 768px) {
+  .nav {
+    justify-content: center;
+  }
+}

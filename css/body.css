@@ -105,3 +105,9 @@ h2 {
     font-size: 16pt;
   }
 }
+@media (min-width: 993px) {
+    body {
+      font-size: 20pt;
+    }
+  }
+  
