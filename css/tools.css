@@ -14,16 +14,14 @@
   text-align: center;
   align-items: center;
   margin: 5px;
-
 }
 
 .skill-row {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 1%;
+  margin: 2%;
   width: 20%;
-
 }
 
 .skill-item {
@@ -45,8 +43,6 @@
   background-color: white;
   transition: all 0.5s ease;
   border-radius: 25%;
-
-
 }
 
 .react {
@@ -105,4 +101,44 @@
   border: solid;
   border-color: rgb(14, 76, 175);
   border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .skill-item {
+    display: flex;
+    position: relative;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 60px;
+    margin: 5%;
+    border: solid 1px;
+    padding: 5%;
+    background-color: aliceblue;
+    transition: all 0.5s ease;
+    font-size: 8pt;
+  }
+  .tools img {
+    width: 22px;
+    height: 22px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 601px) {
+  .skill-item {
+    justify-content: space-between;
+    height: 80px;
+    width: 80px;
+    margin: 5%;
+    border: solid 1px;
+    font-size: 10pt;
+  }
+  .tools img {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+  }
 }
